@@ -1,8 +1,7 @@
 name: flutter_light_plugin
-description: A new Flutter plugin.
+description: android和ios皆可用的亮度插件.
 version: 0.0.1
-author:
-homepage:
+homepage: https://github.com/momoxiaoming/flutter_light_plugin
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
