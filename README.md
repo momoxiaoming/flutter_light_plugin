@@ -1,14 +1,26 @@
 # flutter_light_plugin
 
-A new Flutter plugin.
+flutter_light_plugin 是一个亮度插件.
+```
+android端调节的事当前屏幕亮度,不是系统亮度(因为调节系统亮度需要权限).
+ios端调节的是屏幕亮度
+```
 
-## Getting Started
+## 相关接口
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+1. 设置亮度
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+FlutterLightPlugin.setLight
+``
+
+2. 获取当前亮度
+
+```
+FlutterLightPlugin.getCurrentLight
+``
+3. 获取系统最大亮度
+
+```
+FlutterLightPlugin.getMaxLight
+``
